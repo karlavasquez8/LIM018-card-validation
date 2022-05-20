@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    background-color: #1786F1;
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+}
+h2 {
+    text-align: center;
+}
+.info-show{
+    color:#FFFFFF;
+    font-family: Roboto;
+    display:flex;
+    justify-content: center;
+}
+
+.review {
+    text-align: justify;
+}
+
+.content-show {
+    max-width: 400px;
+    width: 100%;
+}
+
+.content-btn {
+    display:flex;
+    justify-content: center;
+}
+
+.btn-shopp{
+    color:#495057;
+    background-color: #FFC107;
+    border-color: #FFC107;
+    border-radius:5px;
+    padding:8px 15px;
+    border:0px;
+    transition:background-color .10s ease-in-out;
+}
+
+.btn-shopp:hover{
+    background-color: #ffc107e8;
+}
+
+#writer{
+    color:#FFFFFF;
+    text-align: center;
+    padding: 28px 0px;
+    background-color: #1656a6;
+}
+
+
+
+
+
+
+
+
