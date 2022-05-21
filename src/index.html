@@ -13,12 +13,14 @@
     </header>
     <main> 
         <div class="info-show">
-          <div class="content-show">
+          <div class="container-show">
             <p> Teatro Federico García Lorca</p>
             <p> Jueves,15 de setiembre del 2022 a las 5:00 pm </p>
             <br>
-            <div class="content-btn">
-              <button type="submit" class="btn-shopp">Comprar</button>
+            <div class="container-btn">
+              <form onsubmit="shopp(this)">
+                <button type="submit" class="btn-shopp">Comprar</button>
+              </form>
             </div>
             <br>
             <h3> Acerca del evento</h3>
@@ -32,6 +34,23 @@
 
     </main>
     <footer id="writer"> Realizado por Karla Vásquez en Laboratoria </footer>
+    <div class="bed-sheet">
+      <div class="container-modal" id="container-modal">
+        <div class="modal">
+          <div class="title-modal">
+            <div class="title-modal--item">
+              <p>
+                Tarjetas de Credito O debito
+              </p>
+            </div>
+            <div class="title-modal--item title-modal--item-right">
+              <img class="icon-card" src="./img/icono-tarjetas.png" alt="iconos de tarjetas de credito">
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
     <script src="index.js" type="module" ></script>
   </body>
 </html>

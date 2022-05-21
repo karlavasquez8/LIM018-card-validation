@@ -21,12 +21,12 @@ h2 {
     text-align: justify;
 }
 
-.content-show {
+.container-show {
     max-width: 400px;
     width: 100%;
 }
 
-.content-btn {
+.container-btn {
     display:flex;
     justify-content: center;
 }
@@ -51,6 +51,51 @@ h2 {
     padding: 28px 0px;
     background-color: #1656a6;
 }
+
+.bed-sheet{
+    background: rgba(172, 170, 170, 0.76);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+}
+.container-modal{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+.modal {
+    background-color: #1786F1;
+    width: 400px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+.title-modal{
+    display: flex;
+}
+
+.title-modal--item{
+    flex: 1;
+}
+ 
+.title-modal--item-right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.icon-card{
+    width: 183px;
+    height: 27px;
+    left: 747px;
+}
+
+
 
 
 
