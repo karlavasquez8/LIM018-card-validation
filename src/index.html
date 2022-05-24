@@ -18,8 +18,8 @@
             <p> Jueves,15 de setiembre del 2022 a las 5:00 pm </p>
             <br>
             <div class="container-btn">
-              <form onsubmit="shopp(this)">
-                <button type="submit" class="btn-shopp">Comprar</button>
+              <form >
+                <button type="submit" class="btn-shopp-pay">Comprar S/.60.00</button>
               </form>
             </div>
             <br>
@@ -33,20 +33,52 @@
         </div>
 
     </main>
-    <footer id="writer"> Realizado por Karla Vásquez en Laboratoria </footer>
+    <footer class="writer"> Realizado por Karla Vásquez en Laboratoria </footer>
     <div class="bed-sheet">
       <div class="container-modal" id="container-modal">
         <div class="modal">
-          <div class="title-modal">
-            <div class="title-modal--item">
+          <div class="title-modal flex">
+            <div class="flex-mid">
               <p>
-                Tarjetas de Credito O debito
+                Tarjetas de Crédito O débito
               </p>
             </div>
-            <div class="title-modal--item title-modal--item-right">
+
+            <div class="flex-mid title-modal--item-right">
               <img class="icon-card" src="./img/icono-tarjetas.png" alt="iconos de tarjetas de credito">
             </div>
-          </div>
+
+          </div >
+              <form>
+                <div class="wrap-personal-data">
+                  <span>Ingresa tus datos personales </span>
+                  <input class="input-text" type="text" placeholder="Nombres" required>
+                  <input class="input-text" type="text" placeholder="Apellidos" required>
+                </div>
+
+                <div class="wrap-card-data">
+                  <span>Ingresa los datos de tu tarjeta</span>
+                  <input class="input-text" type="text" placeholder="Número de tarjeta" required>
+                </div>
+
+                <div class="flex gap1">
+                  <input class="input-text flex-mid" type="text" placeholder="MM/AA" required>
+                  <input class="input-text flex-mid" type="password" placeholder="CVV" required>
+                </div>
+                <div class="wrap-btn-pay">
+                  <button class="btn-shopp-pay" type="submit" >Pagar</button>
+                </div>
+                
+                <div class="back">
+                  <button class="btn-link">Cancelar y regresar a la página anterior</button>
+                </div>
+
+
+              </form>
+            
+
+
+          
         </div>
       
       </div>
