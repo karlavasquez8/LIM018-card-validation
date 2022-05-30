@@ -1,10 +1,15 @@
 const validator = {
-  saludar: "Hola Nina",
-  soyUnNumero: 123,
-  esnoche: true,
-  cantar: function () {
-    console.log ("jajaja")
-  },
-};
+ isValid: function (carNumber){
+  let arrayOfNumbers=carNumber.split ("");
 
-export default validator;
+  let newArray = arrayOfNumbers.map( ( value,index)=>{
+    return index %2 ===0 ? parseInt (value)*2 : parseInt (value);
+  })
+
+  return newArray;
+ }
+};
+   export default validator;
+   
+
+  
