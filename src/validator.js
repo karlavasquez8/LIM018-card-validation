@@ -7,7 +7,10 @@ const validator = {
   })
 
   return newArray;
- }
+ },
+ maskify:function (ccNumber){
+   return ccNumber.split("").map((value,indx)=> indx < ccNumber.length-4? "#": value).join("");
+  }
 };
    export default validator;
    

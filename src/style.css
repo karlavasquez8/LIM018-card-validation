@@ -60,7 +60,10 @@ h2 {
     height: 100vh;
     position: fixed;
     top: 0px;
-    
+    display: none;
+}
+.bed-sheet.show-bed-sheet {
+    display: block;
 }
 
 .container-modal {
