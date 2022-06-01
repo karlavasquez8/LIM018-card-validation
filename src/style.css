@@ -19,6 +19,11 @@ h2 {
     justify-content: center;
 }
 
+.event-data {
+    display: flex;
+    align-items: center;
+}
+
 .review {
     text-align: justify;
 }
