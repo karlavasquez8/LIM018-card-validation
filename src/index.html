@@ -47,36 +47,34 @@
             </div>
 
           </div >
-              <form id=" form">
+              <form id="form">
                 <div class="wrap-personal-data">
                   <span>Ingresa tus datos personales </span>
-                  <input class="input-text" type="text" placeholder="Nombres" required>
-                  <input class="input-text" type="text" placeholder="Apellidos" required>
+                  <input class="input-text" name="name-user" type="text" placeholder="Nombres" required>
+                  <input class="input-text" name="surname" type="text" placeholder="Apellidos" required>
                 </div>
 
                 <div class="wrap-card-data">
                   <span>Ingresa los datos de tu tarjeta</span>
-                  <input class="input-text" type="text" placeholder="Número de tarjeta" required>
+                  <input class="input-text" name="ccar-number" type="text" maxlength="16" autocomplete="off" placeholder="Número de tarjeta" required>
                 </div>
 
                 <div class="flex gap1">
-                  <input class="input-text flex-mid" type="text" placeholder="MM/AA" required>
-                  <input class="input-text flex-mid" type="password" placeholder="CVV" required>
+                  <input class="input-text flex-mid" name="exp-date" type="text" autocomplete="off" placeholder="MM/AA" required>
+                  <input class="input-text flex-mid" name="cvc" type="password" maxlength="3" placeholder="CVV" required>
                 </div>
                 <div class="wrap-btn-pay">
                   <button class="btn-shopp-pay" type="submit" >Pagar</button>
+                </div>
+
+                <div class="wrap-message-error">
+                  <span class="message"></span>
                 </div>
                 
                 <div class="back">
                   <button id="btn-modal"class="btn-link">Cancelar y regresar a la página anterior</button>
                 </div>
-
-
               </form>
-            
-
-
-          
         </div>
       
       </div>
