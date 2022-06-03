@@ -139,6 +139,7 @@ h2 {
 .wrap-btn-pay{
     margin-top: 21px;
     display: flex;
+    align-items: center;
     justify-content: center; 
 }
 .back {

@@ -12,6 +12,8 @@ function inicializar (){
 
     const form = document.querySelector("#form");
     form.addEventListener("submit", sendForm);
+
+
 }
 
 function btnShoppClick(){
@@ -22,6 +24,7 @@ function modalClose() {
     const bedSheet= document.querySelector(".show-bed-sheet");
     bedSheet.classList.remove("show-bed-sheet")
 }
+
 function sendForm(event) {
     event.preventDefault();
     const formData = new FormData(event.target)
@@ -36,4 +39,6 @@ function sendForm(event) {
         wrapMessage.classList.add('show');
         wrapMessage.querySelector('.message').textContent = 'Tu tarjeta es invalido'
     }
+
 }
+
