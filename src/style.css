@@ -81,6 +81,7 @@ h2 {
 }
 
 .modal {
+    position: relative;
     background-color: #1786F1;
     color: #FFFFFF;
     font-family: Roboto;
